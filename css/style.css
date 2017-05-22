@@ -1,0 +1,99 @@
+* {
+  font-family: Podkova, serif;
+  box-sizing: border-box;
+
+}
+body {
+  background-color: hsl(190, 20%, 95%); 
+  padding: 10px;
+}
+
+/* Logo Container */
+.logo-parent {
+  display: inline-flex;
+  width: 100%;
+  margin: 0 auto 20px auto;
+  background-color: hsl(190, 65%, 95%); 
+  box-shadow: 1.5px 1.5px 0.7px #888888;
+}
+.logo-parent .child {
+  flex: 1;
+  padding: 20px;
+  margin: auto;
+}
+#name {
+  color: hsl(190, 30%, 25%);
+  font-weight: 8;
+}
+#title{
+  color: hsl(50, 60%, 60%);
+  font-weight: 9;
+}
+
+/* Example Work Container 
+*
+* Each link is its own flex container 
+* with the <a>,<img> and text elements
+* as its children
+*/
+.link-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.link-container .link-label .text{
+  color: hsl(190, 30%, 25%);
+  font-weight: 7;
+  margin: auto;
+}
+.link-parent {
+  flex: 1;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  height: 200px;
+  width: 155px ;
+  margin: 10px;
+  padding: 5px;
+  background-color: hsl(190, 60%, 95%); 
+  box-shadow: 3px 3px 1.5px #888888;
+  overflow: hidden;
+}
+
+.link-parent .child {
+  flex: 1;
+  margin: auto; /* "auto" is what centers the child inside the parent*/
+  background-color: hsl(190, 60%, 95%); 
+}
+
+.link-parent .child .project-title {
+  color: hsl(190, 30%, 25%);
+  font-weight: 7;
+}
+
+/*Contact Info Container*/
+.contact-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin: 20px auto 0 auto;
+}
+
+.contact-container .child {
+  flex: 1;
+  padding: 5px;
+  margin: auto;
+}
+
+.contact-container .child .contact-title {
+  color: hsl(190, 50%, 27%);
+  font-weight: 7;
+}
+
+
+
+

@@ -1,0 +1,14 @@
+.links-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 0 0 20px 0;
+}
+.links-parent .child {
+  flex: 1;
+  padding: 20px;
+  margin: 20px;
+  background-color: hsl(190, 60%, 95%); 
+  box-shadow: 3px 3px 1.5px #888888; 
+}
