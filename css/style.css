@@ -9,6 +9,7 @@ body {
 }
 
 /* Logo Container */
+
 .logo-parent {
   display: inline-flex;
   width: 100%;
@@ -38,6 +39,7 @@ body {
 * with the <a>,<img> and text elements
 * as its children
 */
+
 .link-container {
   display: flex;
   flex-flow: row wrap;
@@ -82,19 +84,22 @@ img {
 
 /*Small Screens*/
 @media all and (max-width: 500px) {
+
   .link-parent {
     flex-flow: column wrap;   
   }
+
 }
 
-
 /*Contact Info Container*/
+
 .contact-box {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
   background-color: hsl(190, 45%, 95%)
 }
+
 .contact-container {
   flex: 1;
   display: flex;
@@ -116,6 +121,41 @@ img {
   font-weight: 7;
 }
 
+/*About Section Container*/
 
+.about-box {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  background-color: hsl(190, 45%, 95%)
+  box-shadow: 3px 3px 1.5px #888888;
+}
 
+.about-container {
+  flex: 1;
+  display: flex;
+}
+.about-container .child {
+  flex: 1;
+  padding: 5px;
+  margin: auto;
+}
+#about-title {
+  color: hsl(190, 50%, 27%);
+  font-weight: 7;
+}
 
+.about-text {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+  justify-content: space-around;
+}
+.about-text .child {
+  flex: 1;
+  margin: auto; /* sets text to center*/
+}
+.about-text p{
+  color: hsl(190, 50%, 20%);
+  font-weight: 9;
+}
