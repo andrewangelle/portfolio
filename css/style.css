@@ -39,7 +39,7 @@ body {
 
 .nav-container {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row-reverse wrap;
   justify-content: space-around;
   width: 1005;
   padding: 20px;
@@ -49,8 +49,18 @@ body {
   color: hsl(190, 20%, 30%);
   font-weight: 7;
   margin: auto;
+  background-color: hsl(190, 90%, 95%);
+  box-shadow: 3px 3px 1.5px #888888;
+  font-style: italic;
+  margin: 2px;
 }
-
+.nav-container
+.nav-link 
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: hsl(190, 35%, 25%);
+  font-weight: 8;
+}
 
 /* Example Work Container 
 *
