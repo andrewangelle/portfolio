@@ -9,14 +9,27 @@ body {
   padding: 10px;
 }
 
-/* Logo Container */
+/* 
+* Logo 
+*/
+
+.logo-container {
+  display: flex;
+  flex-flow: row nowrap
+  justify-content: space-between;
+  background-color: hsl(190, 20%, 95%); 
+  z-index: 10;
+  position: fixed;
+}
 
 .logo-parent {
+  flex: 1;
   display: inline-flex;
   width: 100%;
   margin: 0 auto 20px auto;
   padding: 20px;
   background-color: hsl(190, 90%, 95%);
+  position: relative;
 }
 
 .logo-parent .child {
@@ -35,15 +48,23 @@ body {
   color: hsl(50, 60%, 60%);
   font-weight: 9;
 }
-/* Navigation */
+
+/* 
+* Navigation 
+*/
 
 .nav-container {
   display: flex;
   flex-flow: row-reverse wrap;
   justify-content: space-around;
-  width: 1005;
-  padding: 20px;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  top: 150px;
+  background-color: hsl(190, 20%, 95%);
+  z-index: 10;
 }
+
 .nav-link{
   flex: 1;
   color: hsl(190, 20%, 30%);
@@ -54,6 +75,7 @@ body {
   font-style: italic;
   margin: 2px;
 }
+
 .nav-container
 .nav-link 
 a:link, a:visited, a:hover, a:active {
@@ -62,7 +84,8 @@ a:link, a:visited, a:hover, a:active {
   font-weight: 8;
 }
 
-/* Example Work Container 
+/* 
+* Example Work  
 *
 * Each link is its own flex container 
 * with the <a>,<img> and text elements
@@ -75,8 +98,8 @@ a:link, a:visited, a:hover, a:active {
   justify-content: space-between;
   width: 100%;
   margin: auto;
-  padding: 50px;
   overflow: hidden;
+  margin-top: 200px;
 }
 
 .link-container .link-label .text{
@@ -92,7 +115,7 @@ a:link, a:visited, a:hover, a:active {
   justify-content: space-around;
   height: 200px;
   width: 155px ;
-  margin: 10px auto 10px auto;
+  margin: auto;
   padding: 5px;
   background-color: hsl(190, 70%, 95%); 
   box-shadow: 3px 3px 1.5px #888888;
@@ -103,6 +126,7 @@ a:link, a:visited, a:hover, a:active {
   margin: auto; /* "auto" is what centers the child inside the parent*/
   background-color: hsl(190, 80%, 95%); 
 }
+
 img {
   height: 125px;
   width: 125px;
@@ -123,7 +147,9 @@ img {
 
 }
 
-/*Contact Info Container*/
+/* 
+* Contact Info 
+*/
 
 .contact-box {
   display: flex;
@@ -154,45 +180,3 @@ img {
   font-weight: 7;
 }
 
-/*About Section Container*/
-
-.about-box {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  background-color: hsl(190, 45%, 95%)
-  box-shadow: 3px 3px 1.5px #888888;
-  margin: 10px auto 10px auto
-  padding: 20px;
-}
-
-.about-container {
-  flex: 1;
-  display: flex;
-  padding: 20px;
-  margin: 10px auto 10px 0;
-}
-}
-.about-container .child {
-  flex: 1;
-  padding: 5px;
-}
-#about-title {
-  color: hsl(190, 50%, 27%);
-  font-weight: 7;
-}
-
-.about-text {
-  display: flex;
-  flex-flow: column nowrap;
-  margin: auto;
-  justify-content: space-around;
-}
-.about-text .child {
-  flex: 1;
-  margin: auto; /* sets text to center*/
-}
-.about-text p{
-  color: hsl(190, 50%, 20%);
-  font-weight: 9;
-}

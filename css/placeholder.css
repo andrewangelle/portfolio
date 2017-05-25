@@ -12,3 +12,53 @@
   background-color: hsl(190, 60%, 95%); 
   box-shadow: 3px 3px 1.5px #888888; 
 }
+
+
+
+---------------------------------
+/*
+* About Info
+*/
+
+.about-box {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  background-color: hsl(190, 45%, 95%)
+  box-shadow: 3px 3px 1.5px #888888;
+  margin: 10px auto 10px auto
+  padding: 20px;
+}
+
+.about-container {
+  flex: 1;
+  display: flex;
+  padding: 20px;
+  margin: 10px auto 10px 0;
+}
+
+
+.about-container .child {
+  flex: 1;
+  padding: 5px;
+}
+
+#about-title {
+  color: hsl(190, 50%, 27%);
+  font-weight: 7;
+}
+
+.about-text {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+  justify-content: space-around;
+}
+.about-text .child {
+  flex: 1;
+  margin: auto; /* sets text to center*/
+}
+.about-text p{
+  color: hsl(190, 50%, 20%);
+  font-weight: 9;
+}
