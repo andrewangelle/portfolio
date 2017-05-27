@@ -13,120 +13,146 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <!--fonts -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Podkova">
+    <!--CSS Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
 
   </head>
 
   <body>
 
-<!--Logo -->
-  <div class="logo-container">
-    <div class="logo-parent">
-        <div class="child">
-          <h2 id="name">andrew angelle</h2>
-        </div>
-        <div class="child">
-          <h5 id="title">front end software developer</h5>
-        </div>
-      </div>
-  </div>
+  <!--Header -->
 
-<!--Navigation-->
-  <nav class="nav-container">
-    <div class="nav-link">
-      <a href="#portfolio">portfolio</a>
-    </div>
-    <div class="nav-link">
-      <a href="#contact">contact</a>
-    </div>
-  </nav>
+    <div class = "container-fluid" class="header-container">
+      <div class = "row" id="header-row" > 
 
-<!--Example Work  -->
-<a name="portfolio"></a>
-    <div class="link-container">
-      <div class="link-label">
-        <h5 class="text">Example Work:</h5>
+        <div class = "col-xs-6" id="name-column">
+          <p id="name-text">
+            andrew angelle
+          </p>
+        </div>
+
+        <div class = "col-xs-6" id="title-column">
+          <p id="title-text">
+            front-end software developer
+          </p>
+        </div>
+
       </div>
     </div>
 
-    <div class="link-container">
-      <div class="link-parent">
-        <div class="child">
-            <a href="https://github.com/andrewangelle/react-glide">
-              <img src="images/glide.jpg"> 
-              </img>
-            </a>
-        </div>
-        <div class=child>
-          <h5 class="project-title">react-glide</h5>
-        </div>
-      </div>
+  <!-- Nav -->
 
-      <div class="link-parent">
-        <div class="child">
-            <a href="http://github.com/andrewangelle/instrument-search">
-              <img src="images/instrument-search.jpg"></img>
-            </a>
-        </div>
-        <div class=child>
-          <h5 class="project-title">instrument-search</h5>
-        </div>
-      </div>
+    <div class= "container-fluid" class="nav-container">
+      <div class = "row" id="nav-row">
 
-      <div class="link-parent">
-        <div class="child">
-            <a href="http://www.andrewangellemusic.com">
-              <img src="images/music-site.jpg"></img>
-            </a>
+        <div class = "col-xs-6">
+          <button class="btn">contact</button>
         </div>
-        <div class=child>
-          <h5 class="project-title">andrewangellemusic.com</h5>
-        </div>
-      </div>
-    </div>    
 
-<!--Contact Container -->
-<a name="contact"></a>
-  <div class="contact-box">
-    <div class="contact-container" id="row-one">
-      <div class="child">
-        <h5 class="contact-title" >
-          email:
-        </h5>
-      </div>
-      <div class="child">
-        <h5 class="contact-title">
-          
-        </h5>
-      </div>      
-      <div class="child">
-        <h5 class="contact-title">
-          andrewangelle@gmail.com
-        </h5>
+        <div class = "col-xs-6">
+          <button class="btn">portfolio</button>
+        </div> 
+
       </div>
     </div>
 
-      <div class="contact-container" id="row-two">
-      <div class="child">
-        <h5 class="contact-title" >
-          
-        </h5>
-      </div>
-      <div class="child">
-        <a href="http://github.com/andrewangelle">
-          <h5 class="contact-title">
-            Find Me on GitHub
-          </h5>
-        </a> 
-      </div>
-      <div class="child">
-          <h5 class="contact-title">
-            
-          </h5>
-      </div>
-    </div>     
-  </div>   
+  <!-- Content-->
 
+    <div class = "container-fluid" >
+
+      <label for="portfolio" text="Example Work" >
+        Example Work:
+      </label>       
+
+      <div class="container-fluid" class="content-container">
+        <div class="row">
+
+          <div class="col-xs-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">react-glide</div>
+              <div class="panel-body">
+
+                <img src = "images/glide.jpg" class = "img-responsive">
+                
+                <p>
+                  a multi purpose carousel module built in React
+                </p>
+              
+                <a href="https://github.com/andrewangelle/react-glide">
+                  <button type = "button" class = "btn btn-primary">
+                    Go to Repo
+                  </button>
+                </a>              
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container-fluid" class="content-container">
+        <div class="row">
+
+          <div class="col-xs-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">instrument-search</div>
+              <div class="panel-body">
+
+                <img src = "images/instrument-search.jpg" class = "img-responsive">
+
+                <p>
+                  A search application built with React, Node and PostgresSQL
+                </p>
+              
+                <a href="https://github.com/andrewangelle/instrument-search">
+                  <button type = "button" class = "btn btn-primary">
+                    Go to Repo
+                  </button>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container-fluid" class="content-container">
+        <div class="row">
+
+          <div class="col-xs-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">andrewangellemusic.com</div>
+              <div class="panel-body">
+
+                <img src = "images/music-site.jpg" class = "img-responsive">
+              
+                <p>
+                  A dynamic and responsive site I built using HTML, CSS, and browser DOM manipulation with native JavaScript
+                </p>  
+              
+                <a href="http://www.andrewangellemusic.com">
+                  <button type = "button" class = "btn btn-primary">
+                    Go to Site
+                  </button>
+                </a>              
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+   
 
     <script src='scripts/main.js'></script>
+    <!--JS Bootsrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
   </body>
 </html>

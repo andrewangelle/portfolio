@@ -62,3 +62,223 @@
   color: hsl(190, 50%, 20%);
   font-weight: 9;
 }
+
+
+
+
+/*
+* Bootstrap
+*/
+
+.container .row .col-xs-6 .col-sm-3 {
+  background-color: #dedef8;
+  box-shadow: inset 1px -1px 1px #444;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  font-family: Podkova, serif;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: hsl(190, 20%, 95%); 
+  padding: 10px;
+}
+
+
+/* 
+* Logo 
+*/
+
+.logo-container {
+  display: flex;
+  flex-flow: row nowrap
+  justify-content: space-between;
+  background-color: hsl(190, 20%, 95%); 
+  z-index: 10;
+  position: fixed;
+}
+
+.logo-parent {
+  flex: 1;
+  display: inline-flex;
+  width: 100%;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  background-color: hsl(190, 90%, 95%);
+  position: relative;
+}
+
+.logo-parent .child {
+  flex: 1;
+  min-width: 200px
+  padding: 20px;
+  margin: auto;
+}
+
+#name {
+  color: hsl(190, 35%, 25%);
+  font-weight: 8;
+}
+
+#title{
+  color: hsl(50, 60%, 60%);
+  font-weight: 9;
+}
+
+/* 
+* Navigation 
+*/
+
+.nav-container {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  top: 150px;
+  background-color: hsl(190, 20%, 95%);
+  z-index: 10;
+}
+
+.nav-link{
+  flex: 1;
+  color: hsl(190, 20%, 30%);
+  font-weight: 7;
+  margin: auto;
+  background-color: hsl(190, 90%, 95%);
+  box-shadow: 3px 3px 1.5px #888888;
+  font-style: italic;
+  margin: 2px;
+}
+
+.nav-container
+.nav-link 
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: hsl(190, 35%, 25%);
+  font-weight: 8;
+}
+
+/* 
+* Example Work  
+*
+* Each link is its own flex container 
+* with the <a>,<img> and text elements
+* as its children
+*/
+
+.link-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 200px;
+}
+
+.link-container .link-label .text{
+  color: hsl(190, 20%, 30%);
+  font-weight: 7;
+  margin: auto;
+}
+
+.link-parent {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  height: 200px;
+  width: 155px ;
+  margin: auto;
+  padding: 5px;
+  background-color: hsl(190, 70%, 95%); 
+  box-shadow: 3px 3px 1.5px #888888;
+}
+
+.link-parent .child {
+  flex: 1;
+  margin: auto; /* "auto" is what centers the child inside the parent*/
+  background-color: hsl(190, 80%, 95%); 
+}
+
+img {
+  height: 125px;
+  width: 125px;
+  margin: 0;
+}
+
+.link-parent .child .project-title {
+  color: hsl(190, 30%, 25%);
+  font-weight: 7;
+}
+
+/*Small Screens*/
+@media all and (max-width: 500px) {
+
+  .link-parent {
+    flex-flow: column wrap;   
+  }
+
+}
+
+/* 
+* Contact Info 
+*/
+
+.contact-box {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  background-color: hsl(190, 45%, 95%)
+}
+
+.contact-container {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  background-color: hsl(190, 45%, 95%);  
+}
+
+.contact-container .child {
+  flex: 1;
+  padding: 5px;
+  margin: auto;
+}
+
+.contact-container .child .contact-title {
+  color: hsl(190, 50%, 27%);
+  font-weight: 7;
+}
+
