@@ -24,23 +24,17 @@
 
   <!--Header -->
 
-    <div class = "container-fluid" class="header-container">
-      <div class = "row" id="header-row" > 
-
-        <div class = "col-xs-6" id="name-column">
-          <p id="name-text">
-            andrew angelle
-          </p>
+    <div class="container-fluid">
+      <div class="logo-parent">
+          <div class="child">
+            <h2 id="name">andrew angelle</h2>
+          </div>
+          <div class="child">
+            <h5 id="title">front end software developer</h5>
+          </div>
         </div>
+    </div>  
 
-        <div class = "col-xs-6" id="title-column">
-          <p id="title-text">
-            front-end software developer
-          </p>
-        </div>
-
-      </div>
-    </div>
 
   <!-- Nav -->
 
@@ -48,11 +42,15 @@
       <div class = "row" id="nav-row">
 
         <div class = "col-xs-6">
-          <button class="btn">contact</button>
+          <a href="#contact">
+            <button class="btn btn-primary">contact</button>
+          </a>
         </div>
 
         <div class = "col-xs-6">
-          <button class="btn">portfolio</button>
+          <a href="#portfolio">
+            <button class="btn btn-primary">portfolio</button>
+          </a>
         </div> 
 
       </div>
@@ -61,7 +59,7 @@
   <!-- Content-->
 
     <div class = "container-fluid" >
-
+    <a name="portfolio"></a>
       <label for="portfolio" text="Example Work" >
         Example Work:
       </label>       
@@ -143,10 +141,32 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
 
+      <div class = "container-fluid" >
+        <a name="contact"></a>
+        <label for="contact" text="contact" >
+        Contact:
+        </label>
+
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">Email</div>
+              <div class="panel-body">
+                andrewangelle@gmail.com
+              </div>
+
+              <div class="panel-heading">Github</div>
+              <div class="panel-body">
+                <a href="https://github.com/andrewangelle">Home Page</a>
+              </div>
+          </div>
+        </div> 
+
+
+      </div>
     </div>
 
    
