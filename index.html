@@ -21,132 +21,147 @@
   </head>
 
   <body>
+  <!-- Nav -->
+
+    <div class="container-fluid" class="menu">
+      <div class="row" class="nav-row">
+
+        <div class="col-xs-12" class="text-center">
+          &#9776;
+        </div>
+
+      </div>
+    </div>
 
   <!--Header -->
 
     <div class="container-fluid">
-      <div class="logo-parent">
-          <div class="child">
-            <h2 id="name">andrew angelle</h2>
-          </div>
-          <div class="child">
-            <h5 id="title">front end software developer</h5>
-          </div>
+
+      <div class="row">
+
+        <div class="col-xs-12" class="name-box">
+          <h2 id="name">andrew angelle</h2>
+          <h5 id="title">front end software developer</h5>
         </div>
+
+      </div>
     </div>  
 
+    <hr/>
 
-  <!-- Navigation -->
+  <!-- About -->
+  <div class="container-fluid">
+    <a name="about"></a>
+    <label for="about" text="about" >
+    About Me:
+    </label>
 
-  <nav class="nav-container">
-    <div class="nav-link">
-      <a href="#portfolio" class="nav-text" ><strong>portfolio</strong></a>
+    <div class="row">
+
+      <div class="col-xs-12">
+        <p id="about-text">
+          About Me...
+        </p>
+      </div>
+
     </div>
-    <div class="nav-link">
-      <a href="#contact" class="nav-text" ><strong>contact</strong></a>
-    </div>
-  </nav>
+  </div>
+
+  <hr/>
 
   <!-- Content -->
+  <div class="container-fluid">
+    <a name="work"></a>
+    <label for="work" text="work" >
+    Recent Work:
+    </label>
+  
+    <div class="row">
 
-  <div class = "container-fluid" >
-    <a name="portfolio"></a>
-    
-      <div class="container-fluid" class="content-container">
-        <div class="row">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="panel panel-default panel-info">
 
-          <div class="col-xs-12">
-            <div class="panel panel-default panel-info">
-              <div class="panel-heading">
-                <p><strong>react-glide</strong></p>
-              </div>
-              <div class="panel-body">
-
-                <img src = "images/glide.jpg" class = "img-responsive">
-                
-                <p>
-                  a multi purpose carousel module built in React
-                </p>
-              
-                <a href="https://github.com/andrewangelle/react-glide">
-                  <button type = "button" class = "btn btn-primary">
-                    Go to Repo
-                  </button>
-                </a>              
-
-              </div>
-            </div>
+          <div class="panel-heading">
+            <p>react-glide</p>
           </div>
 
-        </div>
-      </div>
+          <div class="panel-body">
+            <img src = "images/glide.jpg" class = "img-responsive">
 
-      <div class="container-fluid" class="content-container">
-        <div class="row">
+            <p>a multi purpose carousel module built in React </p>
 
-          <div class="col-xs-12">
-            <div class="panel panel-default panel-info">
+            <a href="https://github.com/andrewangelle/react-glide">
+              <button type = "button" class = "btn btn-primary">
+                Go to Repo
+              </button>
+            </a>
 
-              <div class="panel-heading">
-                <p><strong>instrument-search</strong></p>
-              </div>
-
-              <div class="panel-body">
-
-                <img src = "images/instrument-search.jpg" class = "img-responsive">
-
-                <p>
-                  A search application built with React, Node and PostgresSQL
-                </p>
-              
-                <a href="https://github.com/andrewangelle/instrument-search">
-                  <button type = "button" class = "btn btn-primary">
-                    Go to Repo
-                  </button>
-                </a>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="container-fluid" class="content-container">
-        <div class="row">
-
-          <div class="col-xs-12">
-            <div class="panel panel-default panel-info">
-              <div class="panel-heading">
-                <p><strong>andrewangellemusic.com</strong></p>
-              </div>
-              <div class="panel-body">
-
-                <img src = "images/music-site.jpg" class = "img-responsive">
-              
-                <p>
-                  A dynamic and responsive site I built using HTML, CSS, and browser DOM manipulation with native JavaScript
-                </p>  
-              
-                <a href="http://www.andrewangellemusic.com">
-                  <button type = "button" class = "btn btn-primary">
-                    Go to Site
-                  </button>
-                </a>              
-
-              </div>
-            </div>
           </div>
         </div>
       </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="panel panel-default panel-info">
+
+          <div class="panel-heading">
+            <p>instrument-search</p>
+          </div>
+
+          <div class="panel-body">
+
+            <img src = "images/instrument-search.jpg" class = "img-responsive">
+
+            <p>
+              A search application built with React, Node and PostgresSQL
+            </p>
+          
+            <a href="https://github.com/andrewangelle/instrument-search">
+              <button type = "button" class = "btn btn-primary">
+                Go to Repo
+              </button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">  
+        <div class="panel panel-default panel-info">
+          <div class="panel-heading">
+            <p>andrewangellemusic.com</p>
+          </div>
+          <div class="panel-body">
+
+            <img src = "images/music-site.jpg" class = "img-responsive">
+          
+            <p>
+              A dynamic and responsive site built using HTML, CSS, and browser DOM manipulation with native JavaScript
+            </p>  
+          
+            <a href="http://www.andrewangellemusic.com">
+              <button type = "button" class = "btn btn-primary">
+                Go to Site
+              </button>
+            </a>  
+                        
+          </div>
+        </div>
+      </div>
+
+    </div> <!--row -->
+  </div> <!--container-->    
+
+  <hr/>
+
 
       <div class = "container-fluid" >
         <a name="contact"></a>
         <label for="contact" text="contact" >
-        Contact:
+        Get in Touch:
         </label>
 
         <div class="row">
+
           <div class="col-xs-12">
             <div class="panel panel-default panel-info">
 
@@ -163,14 +178,16 @@
 
           </div> 
         </div>
-
       </div>
+
     </div>
+
+
 
    
 
-    <script src='scripts/main.js'></script>
-    <!--JS Bootsrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
+
+   <!--JS Bootsrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>
 </html>
