@@ -13,13 +13,9 @@ body {
   text-align: center;
 }
 
-#about-text {
-  font-weight: 8;
-}
-
 #name {
   color: hsl(190, 35%, 25%);
-  font-weight: 8;
+  font-weight: 9;
 }
 
 #title{
@@ -27,6 +23,9 @@ body {
   font-weight: 9;
 }
 
+label {
+  color: hsl(190, 35%, 25%);
+}
 .panel-body a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
