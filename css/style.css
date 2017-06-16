@@ -33,7 +33,7 @@ label{
 }
 
 #content-box {
-  background-color: #fffef2;
+  background: linear-gradient(20deg, #fdffed, white);
 }
 
 #contact-box {
