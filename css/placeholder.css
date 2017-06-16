@@ -282,3 +282,81 @@ img {
   font-weight: 7;
 }
 
+
+
+
+
+
+--------------
+most recent June 1st 
+
+.container-fluid {
+  margin: 5px auto 5px auto;
+}
+
+* Logo 
+
+
+.logo-container {
+  display: flex;
+  flex-flow: row nowrap
+  justify-content: space-between;
+  background-color: hsl(190, 20%, 95%); 
+  z-index: 10;
+  position: fixed;
+}
+
+.logo-parent {
+  flex: 1;
+  display: inline-flex;
+  width: 100%;
+  margin: auto;
+  background-color: hsl(190, 90%, 95%);
+  position: relative;
+}
+
+.logo-parent .child {
+  flex: 1;
+  min-width: 200px
+  margin: auto;
+}
+*/
+/*
+*  Navigation
+
+.nav-container {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  width: 100%;
+  background-color: hsl(190, 20%, 95%);
+}
+
+.nav-link {
+  display: flex;
+  flex: 1;
+  color: hsl(190, 20%, 30%);
+  font-weight: 7;
+  margin: auto;
+  background-color: hsl(190, 90%, 95%);
+  font-style: italic;
+  margin: 2px;
+}
+
+.nav-container
+.nav-link 
+a:link, a:visited, a:hover, a:active {
+  flex: 1;
+  text-decoration: none;
+  color: hsl(190, 35%, 25%);
+  font-weight: 8;
+}
+
+.nav-text {
+  text-align: center;
+}
+*/
+
+/*
+*  Content
+*/

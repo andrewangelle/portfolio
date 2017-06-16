@@ -7,6 +7,11 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #F9F6F3;
+}
+
+label{
+  color: hsl(190, 35%, 25%);
 }
 
 .row {
@@ -19,13 +24,18 @@ body {
 }
 
 #title{
-  color: hsl(50, 60%, 60%);
+  color: hsl(50, 60%, 55%);
   font-weight: 9;
 }
 
-label {
-  color: hsl(190, 35%, 25%);
+#name-box {
+  background: linear-gradient(2deg, #D2F2F9, #F9F7EC)
 }
+
+#contact-box {
+  background: #F2FDFF
+}
+
 .panel-body a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
