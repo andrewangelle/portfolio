@@ -32,11 +32,14 @@ label{
   background: linear-gradient(2deg, #D2F2F9, #F9F7EC)
 }
 
+#content-box {
+  background-color: #fffef2;
+}
+
 #contact-box {
-  background: #F2FDFF
+  background: #edfff9; 
 }
 
 .panel-body a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
-
