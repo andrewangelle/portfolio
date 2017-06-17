@@ -34,10 +34,12 @@ label{
 
 #content-box {
   background: linear-gradient(20deg, #fdffed, white);
+  padding-top: 15px;
 }
 
 #contact-box {
   background: #edfff9; 
+  padding-top: 15px;
 }
 
 .panel-body a:link, a:visited, a:hover, a:active {
