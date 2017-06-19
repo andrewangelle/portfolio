@@ -36,7 +36,9 @@ label{
   background: linear-gradient(20deg, #fdffed, white);
   padding-top: 15px;
 }
-
+#starter img{
+  width: 100%;
+}
 #contact-box {
   background: #edfff9; 
   padding-top: 15px;
