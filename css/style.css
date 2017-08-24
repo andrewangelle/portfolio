@@ -40,10 +40,14 @@ label{
   width: 100%;
 }
 #contact-box {
-  background: #edfff9; 
+  background: #edfff9;
   padding-top: 15px;
 }
 
 .panel-body a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
+
+/*@media (min-width: 750px) {
+
+}*/
